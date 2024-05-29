@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.hel{
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 87vh;
+}
+
+.container{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 40px black;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+}
+
+#input{
+    border: 2px solid black;
+    position: relative;
+    margin: auto;
+    width: 85%;
+    padding: 1.2rem;
+}
+
+button{
+    position: absolute;
+    font-size: 2rem;
+    padding: 5px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: none;
+    color: white;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#previous{
+    left: -30px;
+}
+
+
+#next{
+    right: -30px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 40%;
+}
+
+p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+h3{
+   font-family: sans-serif;
+   display: block;
+   text-align: center;
+   margin-top: 10px;
+}
+
+h6{
+    font-family: cursive;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 498px) {
+    .container{
+       width: 300px;
+       height: 300px;
+    }
+    
+    p{
+       font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 377px) {
+    .container{
+       width: 250px;
+       height: 250px;
+    }
+    
+    p{
+       font-size: 0.5rem;
+    }
+
+    img{
+        width: 40px;
+        height: 40px;
+    }
+
+    button{
+        font-size: 1rem;
+        height: 30px;
+        width: 30px;
+    }
+
+    #previous{
+        left: -20px;
+    }
+    
+    
+    #next{
+        right: -20px;
+    }
+
+
+}
